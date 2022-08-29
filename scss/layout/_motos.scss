@@ -1,0 +1,46 @@
+.rouserImg{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.rouser{
+    background-color: white;
+    text-align: center;
+
+    @media (min-width: 1000px){
+        display: flex;
+        flex-direction: row;
+    }
+
+    p{
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        @media (min-width: 600px){
+            font-size: 20px;
+        }
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+.rs200{
+    background-color: white;
+    
+    @media (min-width: 1000px){
+        text-align: center;
+    }
+
+    .img1{
+        width: 100%;
+
+        @media (min-width: 1000px){
+            width: 50%;
+            height: 700px;
+        }
+    }
+
+}

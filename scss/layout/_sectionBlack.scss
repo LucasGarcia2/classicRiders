@@ -1,0 +1,19 @@
+.sectionBlack{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+
+    @media (min-width: 1000px){
+        font-size: 30px;
+    }
+
+    img{
+        width: 80%;
+
+        @media (min-width: 1000px){
+            width: 40%;
+        }
+    }
+}

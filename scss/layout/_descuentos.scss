@@ -1,0 +1,24 @@
+.descuentos{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    @media (min-width: 600px){
+        font-size: 20px;
+    }
+
+    p{
+        margin-top: 20px;
+
+    }
+
+    img{
+        width: 125px;
+        height: 95px;
+        &:hover{
+            transform: scale(2);
+        }
+    }
+}

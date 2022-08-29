@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.textover img {
+  width: 100%;
+}
+
+.textover {
+  max-width: 1600px;
+}
+
+.textover {
+  position: relative;
+}
+
+.textover figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+@media (min-width: 600px) {
+  .textover figcaption {
+    bottom: 50%;
+  }
+}
+
+.textover figcaption {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+@media (min-width: 600px) {
+  .textover figcaption {
+    font-size: 30px;
+  }
+}
+
+.expancion {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.expancion1 {
+  width: 50%;
+  text-align: center;
+  margin: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
+@media (min-width: 600px) {
+  .expancion1 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .expancion1 {
+    font-size: 30px;
+    margin-top: 10%;
+  }
+}
+
+.expancion2 {
+  width: 50%;
+  text-align: center;
+  margin: 5%;
+}
+.expancion2 img {
+  width: 125px;
+  height: 75px;
+}
+@media (min-width: 600px) {
+  .expancion2 img {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media (min-width: 1000px) {
+  .expancion2 img {
+    width: 550px;
+    height: 367px;
+  }
+}
+
+.sectionBlack {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+@media (min-width: 1000px) {
+  .sectionBlack {
+    font-size: 30px;
+  }
+}
+.sectionBlack img {
+  width: 80%;
+}
+@media (min-width: 1000px) {
+  .sectionBlack img {
+    width: 40%;
+  }
+}
+
+.descuentos {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (min-width: 600px) {
+  .descuentos {
+    font-size: 20px;
+  }
+}
+.descuentos p {
+  margin-top: 20px;
+}
+.descuentos img {
+  width: 125px;
+  height: 95px;
+}
+.descuentos img:hover {
+  transform: scale(2);
+}
+
+.ofertas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+@media (min-width: 600px) {
+  .ofertas {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1000px) {
+  .ofertas {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+.ofertas .card {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+@media (min-width: 600px) {
+  footer {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  footer {
+    font-size: 25px;
+  }
+}
+footer img {
+  width: 80%;
+}
+@media (min-width: 1000px) {
+  footer img {
+    width: 50%;
+  }
+}
+
+.contact {
+  margin-top: 50px;
+  text-align: left;
+  font-size: 15px;
+}
+@media (min-width: 600px) {
+  .contact {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+.form {
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media (min-width: 600px) {
+  .form {
+    font-size: 25px;
+    width: 50%;
+    align-content: center;
+    margin-left: 50px;
+  }
+}
+
+.nosotrosImg img {
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .nosotrosContenedor {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.nosotrosContenedor img {
+  width: 100%;
+}
+@media (min-width: 1000px) {
+  .nosotrosContenedor img {
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+  }
+}
+.nosotrosContenedor .nosotros2 {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+@media (min-width: 600px) {
+  .nosotrosContenedor .nosotros2 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1000px) {
+  .nosotrosContenedor .nosotros2 {
+    text-align: center;
+  }
+}
+
+.nosotrosGaleria img {
+  width: 100%;
+}
+
+.rouserImg {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+.rouser {
+  background-color: white;
+  text-align: center;
+}
+@media (min-width: 1000px) {
+  .rouser {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.rouser p {
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (min-width: 600px) {
+  .rouser p {
+    font-size: 20px;
+  }
+}
+.rouser img {
+  width: 100%;
+}
+
+.rs200 {
+  background-color: white;
+}
+@media (min-width: 1000px) {
+  .rs200 {
+    text-align: center;
+  }
+}
+.rs200 .img1 {
+  width: 100%;
+}
+@media (min-width: 1000px) {
+  .rs200 .img1 {
+    width: 50%;
+    height: 700px;
+  }
+}
+
+.catalogo {
+  width: 100%;
+}
+
+.conjunto1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+@media (min-width: 200px) {
+  .conjunto1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 890px) {
+  .conjunto1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (min-width: 1100px) {
+  .conjunto1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+.conjunto2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+@media (min-width: 200px) {
+  .conjunto2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 890px) {
+  .conjunto2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (min-width: 1100px) {
+  .conjunto2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+.accesoriosMotos {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

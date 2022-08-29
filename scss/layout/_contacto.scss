@@ -1,0 +1,25 @@
+.contact{
+    margin-top: 50px;
+    text-align: left;
+    font-size: 15px;
+
+    @media (min-width: 600px){
+        font-size: 20px;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+.form{
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    @media (min-width: 600px){
+        font-size: 25px;
+        width: 50%;
+        align-content: center;
+        margin-left: 50px;
+    }
+}

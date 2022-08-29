@@ -1,0 +1,47 @@
+.nosotrosImg{
+
+    img{
+        width: 100%;
+    }
+}
+
+.nosotrosContenedor{
+
+
+    @media (min-width: 1000px){
+        display: flex;
+        flex-direction: row;
+    }
+
+    img{
+         width: 100%;
+
+        @media (min-width: 1000px){
+            width: 50%;
+            margin-top: 40px;
+            margin-bottom: 50px;
+            margin-right: 20px;
+        }
+    }
+    
+    .nosotros2{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 50px;
+        margin-bottom: 60px;
+
+        @media (min-width: 600px){
+            font-size: 30px;
+        }
+
+        @media(min-width: 1000px){
+            text-align: center;
+        }
+    }
+}
+
+.nosotrosGaleria{
+    img{
+        width: 100%;
+    }
+}
